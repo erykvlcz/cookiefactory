@@ -11,6 +11,10 @@ public class Storage {
         }
     }
 
+    public void count(){
+        System.out.println("Counting...");
+    }
+
     @Override
     public String toString() {
         return "Storage{" +
