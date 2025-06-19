@@ -21,6 +21,7 @@ public class Client {
 
     public void addToCookieToList(Cookie cookie){
         ownedCookies.add(cookie);
+        System.out.println("Dodano: " + cookie);
     }
 
     public Cookie getFavCookie() {
