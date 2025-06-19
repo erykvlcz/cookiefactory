@@ -4,6 +4,7 @@ public class Cookie {
     private String name;
     private String taste;
     private Integer calories;
+    private String ingredients;
 
     public Cookie(String name, String taste, Integer calories) {
         this.name = name;
@@ -35,12 +36,14 @@ public class Cookie {
         this.calories = calories;
     }
 
+
     @Override
     public String toString() {
         return "Cookie{" +
                 "name='" + name + '\'' +
                 ", taste='" + taste + '\'' +
                 ", calories=" + calories +
+                ", ingredients='" + ingredients + '\'' +
                 '}';
     }
 }
