@@ -36,6 +36,9 @@ public class Cookie {
         this.calories = calories;
     }
 
+    public void printMeess(){
+        System.out.println("Elo");
+    }
 
     @Override
     public String toString() {
