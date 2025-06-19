@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Client {
     private String name;
     private ArrayList<Cookie> ownedCookies = new ArrayList<>();
+    Cookie favCookie;
 
     public Client(String name) {
         this.name = name;
@@ -20,6 +21,14 @@ public class Client {
 
     public void addToCookieToList(Cookie cookie){
         ownedCookies.add(cookie);
+    }
+
+    public Cookie getFavCookie() {
+        return favCookie;
+    }
+
+    public void setFavCookie(Cookie favCookie) {
+        this.favCookie = favCookie;
     }
 
     @Override
