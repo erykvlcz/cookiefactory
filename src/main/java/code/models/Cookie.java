@@ -40,6 +40,10 @@ public class Cookie {
         System.out.println("Elo");
     }
 
+    public void mix(){
+        System.out.println("mix mix");
+    }
+
     @Override
     public String toString() {
         return "Cookie{" +
