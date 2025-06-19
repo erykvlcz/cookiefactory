@@ -23,12 +23,12 @@ public class Client {
         ownedCookies.add(cookie);
     }
 
-    public Cookie getFavCookie() {
-        return favCookie;
-    }
-
     public void setFavCookie(Cookie favCookie) {
         this.favCookie = favCookie;
+    }
+
+    public Cookie getFavCookie() {
+        return favCookie;
     }
 
     @Override
