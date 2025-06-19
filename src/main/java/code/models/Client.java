@@ -24,12 +24,12 @@ public class Client {
         System.out.println("Dodano: " + cookie);
     }
 
-    public Cookie getFavCookie() {
-        return favCookie;
-    }
-
     public void setFavCookie(Cookie favCookie) {
         this.favCookie = favCookie;
+    }
+
+    public Cookie getFavCookie() {
+        return favCookie;
     }
 
     @Override
