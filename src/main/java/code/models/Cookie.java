@@ -43,7 +43,7 @@ public class Cookie {
                 "name='" + name + '\'' +
                 ", taste='" + taste + '\'' +
                 ", calories=" + calories +
-                ", ingredients='" + ingredients + '\'' +
+                ", ingredients xdddd ='" + ingredients + '\'' +
                 '}';
     }
 }
